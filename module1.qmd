@@ -48,11 +48,13 @@ Create a timeseries plot of average \[CO~2~\]. Use `as.Date()` to create a forma
 
 ### Q2 (1 point)
 
-What months are the \[CO~2~\] values at the maximum? Create another dataframe with these months selected and create a plot like above, but with the maximum months colored in "forestgreen".
+In which 3-month window are the \[CO~2~\] values at their seasonal peak? Create another dataframe with these months selected and create a plot like above, but with the maximum months colored in "forestgreen".
 
 ### Q3 (1 point)
 
-What explains the seasonal variation in \[CO~2~\]? After reading Lewandowsky et al. 2016, how might you go about separating the long term trend and the seasonal variation in \[CO~2~\]?
+Why does \[CO~2~\] peak in the months highlighted above? Consider the location of Mauna Loa and the seasonality of processes that emit and absorb \[CO~2~\].  
+
+After reading Lewandowsky et al. 2016, how might you go about separating the long term trend and the seasonal variation in \[CO~2~\]?
 
 ## Global temperature
 
@@ -62,11 +64,11 @@ Next, we turn to a global temperature anomaly [dataset](https://data.giss.nasa.g
 
 Read some [background](https://data.giss.nasa.gov/gistemp/history/background.html) as well as the [simplified documentation](https://climate.nasa.gov/vital-signs/global-temperature/?intent=121) for this dataset.
 
-How are the measurements made? Describe each column in the dataset and its units. What are the resolution of the data?
+How are the measurements made? Describe each column in the dataset and its units. What is the temporal resolution of the data?
 
 ### Q5 (1 point)
 
-Construct code to import dataset in a format that can be used for transforming and visualization.
+Construct code to import the dataset from the above url in a format that can be used for transforming and visualization.
 
 ### Q6 (1 point)
 
@@ -88,11 +90,11 @@ Previously hosted by Oak Ridge National Lab, the [data](https://zenodo.org/recor
 
 ### Q8 (1 point)
 
-After downloading this dataset, create a folder entitled `data` and save the file within the folder with a .txt extension. Read this file into R. What are the columns and units? How were these data obtained?
+After downloading this dataset, create a folder entitled `data` and save the file within the folder with a .txt extension. Read this file into R. What are the columns and units? In the "Vostok CO2 record" section of Barnola et al. 1987, what is the temporal resolution of the data?
 
 ### Q9 (1 point)
 
-Transform the data as needed to create a plot in chronological order. Add at least two different smoothing window averages to your plot.
+Transform the data as needed to create a plot in chronological order. Add at least two different smoothing window averages to your plot. How did you select the smoothing windows?
 
 ### Q10 (1 point)
 
